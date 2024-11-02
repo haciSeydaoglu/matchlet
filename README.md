@@ -2,6 +2,12 @@
 
 A TypeScript implementation of PHP-like pattern matching with type safety and additional features.
 
+## Why I Created This
+
+I've always loved PHP's match expression and have been using my own TypeScript implementation of it for years in various projects. Recently, I wanted to enhance it with a PHP-style `_default` key functionality. After consulting with Claude AI about the implementation, the result turned out so well that I decided to make it my first open-source contribution.
+
+This is my first open-source project, and I'm excited to share it with the community.
+
 ## Installation
 
 ```bash
