@@ -73,7 +73,7 @@ export function match<T extends string | number | symbol, Sonuc = any>(
     if (value === undefined) {
         const defaultValue = (options as WithDefault<T, Sonuc>)._default;
         if (defaultValue === undefined) {
-            throw new Error(`No matching value found for key: ${String(key)}`);
+            return undefined as any;
         }
         return isFunction(defaultValue) ? defaultValue() : defaultValue;
     }
