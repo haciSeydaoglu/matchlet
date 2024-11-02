@@ -1,4 +1,4 @@
-# match-ts
+# matchlet
 
 A TypeScript implementation of PHP-like pattern matching with type safety and additional features.
 
@@ -11,13 +11,13 @@ This is my first open-source project, and I'm excited to share it with the commu
 ## Installation
 
 ```bash
-npm install match-ts
+npm install matchlet
 ```
 
 ## Usage
 
 ```typescript
-import { match } from 'match-ts';
+import { match } from 'matchlet';
 
 // Basic usage with default value
 const result1 = match('a', {

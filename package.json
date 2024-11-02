@@ -1,13 +1,14 @@
 {
-  "name": "match-ts",
-  "version": "1.0.0",
+  "name": "matchlet",
+  "version": "0.0.1",
   "description": "PHP-like pattern matching for TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "publish": "npm publish"
   },
   "keywords": [
     "typescript",
